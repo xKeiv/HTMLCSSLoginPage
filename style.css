@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+
+/*==Background Stuff==*/
+body {
+  background-image: url("https://i.imgur.com/USK2qaz.jpg");
+  background-repeat: repeat;
+
+}
+
+font {
+  font-family: Roboto;
+  font-size: 13px;
+}
+
+/*==Content Side==*/
+/* kolory do tabelek: https://colorhunt.co/palette/4b5d67322f3d59405c87556f/?ref=tab */
+.log_frame {
+    background-image: linear-gradient(145deg, #5b1734, #7e2938);
+    margin: auto;
+    margin-top: 100px;
+    width: 345px;
+    height: 345px;
+    border: solid 2px #985460;
+    border-radius: 30px 30px 5px 5px;
+    color: #bf949c;
+    box-shadow: -3px -2px 28px 11px #00000080;
+  }
+
+.in_frame {
+  text-align: center;
+}
+
+.lil_frame {
+    background-image: linear-gradient(145deg, #5b1734, #7e2938);
+    margin: auto;
+    margin-top: 15px;
+    width: 345px;
+    height: 150px;
+    border: solid 2px #985460;
+    border-radius: 5px 5px 30px 30px;
+    color: #bf949c;
+    box-shadow: -3px -2px 28px 11px #00000080;
+  }
+
+h1 {
+  font-family: Satisfy;
+  font-size: 35px;
+  /*color: #993399;*/
+  color: #bf949c;
+  text-shadow: 1px 0px 4px #000000;
+}
+
+/*==Buttons/Textboxes==*/
+
+
+input[type=button] {
+  border: solid 1px #985460;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #292128;
+  color: #bf949c;
+  outline: none;
+  width: 50%;
+  padding: 10px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input[type=button]:focus {
+  background-color: #5b2d5a;
+}
+
+input[type=checkbox] {
+  border: solid 1px #985460;
+  border-radius: 2px 2px 2px 2px;
+  background-color: #292128;
+  color: #bf949c;
+  outline: none;
+}
+
+input[type=text] {
+  border: solid 1px #985460;
+  border-radius: 3px 3px 3px 3px;
+  background-color: #292128;
+  color: #bf949c;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: #5b2d5a;
+}
+
+input[type=password] {
+    border: solid 1px #985460;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #292128;
+    color: #bf949c;
+    outline: none;
+}
+
+input[type=password]:focus {
+  background-color: #5b2d5a;
+}
+
+/*==(c) Kavai==*/
