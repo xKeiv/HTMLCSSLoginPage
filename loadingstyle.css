@@ -12,11 +12,11 @@ body {
   content: "";
   width: 50px;
   height: 50px;
-  border: 2px solid #000000;
-  border-top-color: #009579;
-  border-left-color: #0b594a;
-  border-bottom-color: #000689;
-  border-right-color: ##131891;
+  border: 1px solid #000000;
+  border-top-color: #261C2C;
+  border-left-color: #3E2C41;
+  border-bottom-color: #5C527F;
+  border-right-color: #6E85B2;
   border-radius: 50%;
   animation: loading 1s linear infinite;
 }
