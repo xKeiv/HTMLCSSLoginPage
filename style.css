@@ -82,6 +82,7 @@ input[type=text] {
   border-radius: 3px 3px 3px 3px;
   background-color: #292128;
   color: #bf949c;
+  padding: 5px;
   outline: none;
 }
 
@@ -94,6 +95,7 @@ input[type=password] {
     border-radius: 3px 3px 3px 3px;
     background-color: #292128;
     color: #bf949c;
+    padding: 5px;
     outline: none;
 }
 
